@@ -63,54 +63,126 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-.container {
-    width: 900px;
-    margin: auto;
+.container-about-page {
+	width: 900px;
+    margin: auto;	
+    *//border: 2px solid red;
 }
 
-.logo {
+.logo1 {
     margin: 20px 10px;
+    width: 860px; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    margin-left: 2px;
+    margin-top: 30px;
+      
+}
+
+header nav a {
+    margin: 0px 20px;
+    margin-right: 50px;
 }
 
 .middle-content {
-    margin: 50px auto;
+	margin: 50px auto;
 	width: 900px;
-	border: 2px solid blue;
 	display: flex;
 	flex-wrap: wrap;
 	/* justify-content: space-between; */
-	justify-content: center;
-
+    justify-content: center;
+    align-content: space-evenly;
+    
 }
 
 .middle-content .item1 {
     width: 400px;
 	height: 300px;
-	margin: 20px;
-	border: 1px solid black;
-	background: lightgray;
+    margin: 20px;
+    margin-bottom: 70px;
+	
 }
 
 .middle-content .item2 {
     width: 400px;
 	height: 300px;
 	margin: 20px;
-	border: 1px solid black;
-	background: lightgray;
+	
+	
 }
 
 .middle-content .item3 {
     width: 400px;
 	height: 300px;
 	margin: 20px;
-	border: 1px solid black;
-	background: lightgray;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	
 }
 
 .middle-content .item4 {
     width: 400px;
 	height: 300px;
-	margin: 20px;
-	border: 1px solid black;
-	background: lightgray;
+    margin: 20px;
+    padding: 0 1%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    
+}
+
+.aboutheader {
+    margin-right: 820px;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: rgb(192, 189, 189);
+    text-decoration: none;
+}
+
+.about .text-container {
+    margin-left: 15px;
+    padding-bottom: 20px; 
+     
+}
+
+.bottom-content {
+    padding-top: 40px;
+    padding-bottom: 35px;
+    
+}
+
+button {
+    border-radius: 12px;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
